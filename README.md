@@ -52,7 +52,7 @@ A simple calculator app to compute 12% Value Added Tax (VAT). This project start
 
 ## 📸 Tangkapan Layar / Screenshots
 
-_(Tambahkan tangkapan layar dari Figma di sini, nanti bisa disusulkan)_
+_Coming Soon, Still on Progress, Uploading on Github_
 
 ---
 
