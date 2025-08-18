@@ -1,6 +1,6 @@
 # Kalkulator PPN 12% / VAT 12% Calculator 🇮🇩 🇬🇧
 
-[![Aplikasi Web](https://img.shields.io/badge/Aplikasi_Web-Buka_Aplikasi-blue)](https://www.appsheet.com/start/YOUR_APP_ID_HERE)
+[![Aplikasi Web](https://img.shields.io/badge/Aplikasi_Web-Buka_Aplikasi-blue)](https://www.appsheet.com/start/c6b2645b-0d30-430a-ae0a-5956d68abd3c)
 
 ---
 
@@ -76,7 +76,10 @@ A simple VAT calculator app built with `low-code` to help users compute 12% Valu
 
 ### 📸 Tangkapan Layar / Screenshots
 
-*(Tambahkan tangkapan layar form kalkulator dan riwayat di sini.)*
+* **Tampilan Utama**: <br>
+![Gambar Tampilan Awal](assets/tampilan-awal.png)
+
+
 
 ---
 
