@@ -1,6 +1,6 @@
 # Kalkulator PPN 12% / VAT 12% Calculator 🇮🇩 🇬🇧
 
-[![Aplikasi Web](https://img.shields.io/badge/Aplikasi_Web-Buka_Aplikasi-blue)](https://www.appsheet.com/start/c6b2645b-0d30-430a-ae0a-5956d68abd3c)
+[![Aplikasi Web](https://img.shields.io/badge/Aplikasi_Web-Buka_Aplikasi-blue)](https://www.appsheet.com/start/YOUR_APP_ID_HERE)
 
 ---
 
@@ -14,8 +14,8 @@ A simple VAT calculator app built with `low-code` to help users compute 12% Valu
 
 ### 🎯 Tujuan Proyek / Project Goals
 
-* 🇮🇩 Membantu pengguna menghitung PPN secara mudah dan cepat, cocok untuk kebutuhan individu dan UMKM.
-* 🇬🇧 Helping users quickly and easily calculate VAT, suitable for personal and small business use.
+* 🇮🇩 Membantu pengguna menghitung PPN secara mudah dan cepat, cocok untuk kebutuhan individu dan UMKM dalam mengisi formulir faktur pajak.
+* 🇬🇧 Helping users quickly and easily calculate VAT, suitable for personal and small business use in filling out tax invoice forms.
 
 ---
 
@@ -23,9 +23,22 @@ A simple VAT calculator app built with `low-code` to help users compute 12% Valu
 
 * **Figma** (mockup & prototype)
 * **AppSheet** (platform pengembangan `low-code`)
-* **Google Sheets** (sebagai `database` utama)
+* **Google Sheets** (sebagai `database` utama dengan tabel `coretax04db`, `ppnfleksibeldb`, dan `carihargadasardb`)
 * **draw.io** (diagram tools)
 * **Gemini** (AI assistant)
+
+---
+
+### 🚶 Alur Kerja Pengguna / User Flow
+
+* **🇮🇩 Akses dan `Login`**: Pengguna membuka aplikasi dan diharuskan `login` untuk keamanan data.
+  * 🇬🇧 **Access and Login**: The user opens the app and is required to log in for data security.
+* **🇮🇩 Navigasi Utama**: Pengguna diarahkan ke kalkulator utama untuk membantu pengisian faktur pajak PPN di Coretax dengan Kode Pajak 04 (barang / jasa non-mewah). Mereka dapat mengakses kalkulator lain seperti PPN Fleksibel dan Cari Harga Dasar, serta halaman "About", melalui ikon `hamburger` di kiri atas.
+  * 🇬🇧 **Main Navigation**: The user is directed to the main calculator to assist with VAT tax invoice filling in Coretax with Tax Code 04 (non-luxury goods/services). They can access other calculators like Flexible VAT and Find Base Price, as well as the "About" page, via the `hamburger` icon on the top left.
+* **🇮🇩 Perhitungan dan Validasi `Real-time`**: Hasil perhitungan (output) langsung tertera pada `form` secara instan saat pengguna mengisi data. Aplikasi juga melakukan validasi untuk mencegah input tidak valid.
+  * 🇬🇧 **Real-time Calculation and Validation**: The calculation result (output) appears instantly on the form as the user inputs data. The app also performs validation to prevent invalid input.
+* **🇮🇩 Simpan/Batal**: Pengguna bisa menyimpan perhitungan ke `database` `spreadsheet` atau membatalkan entri. Jika `form` sudah terisi, opsi `Cancel` akan memunculkan verifikasi untuk mencegah kehilangan data.
+  * 🇬🇧 **Save/Cancel**: The user can save calculations to the `spreadsheet` database or cancel the entry. If the form is filled, the `Cancel` option will trigger a verification to prevent data loss.
 
 ---
 
@@ -37,16 +50,10 @@ A simple VAT calculator app built with `low-code` to help users compute 12% Valu
   * 🇬🇧 **Automatic Item Numbering**: Item names are automatically generated to simplify form-filling.
 * **✅ Validasi Input**: Mencegah input nilai negatif atau nol pada kolom penting.
   * 🇬🇧 **Input Validation**: Prevents negative or zero values in key columns.
-* **📈 Riwayat Perhitungan**: Menyimpan riwayat semua transaksi dengan kontrol `save` dan `cancel` yang jelas.
-  * 🇬🇧 **Calculation History**: Stores transaction history with clear save and cancel controls.
-
----
-
-### 🚶 User Flow (Versi Web)
-
-* 🇮🇩 Pengguna mengisi data kalkulasi.
-* 🇮🇩 **Simpan/Batal**: Tombol "Save" akan menyimpan data, sementara "Cancel" akan menghapus entri. Jika `form` sudah terisi, "Cancel" akan memunculkan verifikasi untuk mencegah penghapusan data tidak sengaja.
-* 🇬🇧 **Save/Cancel**: The "Save" button saves the data, while "Cancel" discards the entry. If the form is filled, "Cancel" triggers a verification to prevent accidental data loss.
+* **📈 Riwayat Perhitungan**: Menyimpan riwayat semua transaksi untuk ditinjau.
+  * 🇬🇧 **Calculation History**: Stores a history of all transactions for review.
+* **⚡ Perhitungan Instan**: Hasil perhitungan langsung terlihat pada form saat input diisi, bahkan tanpa perlu disimpan.
+  * 🇬🇧 **Instant Calculation**: The calculation result is displayed instantly on the form as the input is filled, even without saving.
 
 ---
 
