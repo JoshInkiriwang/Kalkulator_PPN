@@ -77,7 +77,28 @@ A simple VAT calculator app built with `low-code` to help users compute 12% Valu
 ### 📸 Tangkapan Layar / Screenshots
 
 * **Tampilan Utama**: <br>
-![Gambar Tampilan Awal](assets/tampilan-awal.png)
+![Gambar Tampilan Awal](assets/tampilan_awal.png)
+
+* **Tampilan Hamburger Side Menu**: <br>
+![Gambar Tampilan Validasi Input](assets/hamburger_sidemenu.png)
+
+* **Tampilan Riwayat Data**: <br>
+![Gambar Tampilan Riwayat Data](assets/riwayat_data.png)
+
+* **Tampilan Kalkulator Coretax **: <br>
+![Gambar Tampilan Kalkulator Coretax](assets/kalkulator_coretax.png)
+
+* **Tampilan Kalkulator Cari Harga Dasar**: <br>
+![Gambar Tampilan Kalkulator Cari Harga Dasar](assets/kalkulator_carihargadasar.png)
+
+* **Tampilan Kalkulator PPN Fleksibel**: <br>
+![Gambar Tampilan Kalkulator PPN Fleksibel](assets/kalkulator_ppnfleksibel.png)
+
+'* **Tampilan Pop-Up Verifikasi Cancel**: <br>
+![Gambar Tampilan Verifikasi Cancel](assets/popup_verifikasi.png)
+
+* **Tampilan Validasi Input**: <br>
+![Gambar Tampilan Validasi Input](assets/validasi_input.png)
 
 
 
