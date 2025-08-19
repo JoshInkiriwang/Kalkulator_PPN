@@ -76,7 +76,7 @@ A simple VAT calculator app built with `low-code` to help users compute 12% Valu
 
 ### 📸 Tangkapan Layar / Screenshots
 
-* **Formula for each Calculators*: <br>
+* **Formula for each Calculators**: <br>
 ![Gambar Formula](assets/formula_kalkulasi.png)
 
 * **Tampilan Utama**: <br>
